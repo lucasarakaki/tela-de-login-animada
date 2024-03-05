@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login - Animada</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+  </head>
+  <body>
+    
+    <div class="container" id="container"> <!-- Inicio do container principal -->  
+      <div class="form-cotainer inscrever-se"> <!-- Inicio do formulário - cadastro -->
+        <form> 
+          <h1>Criar uma conta</h1>
+          <div class="icons-media">
+            <a href="#"> <!-- Icone instagram -->
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#"> <!-- Icone facebook -->
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#"> <!-- Icone github -->
+              <i class="fa-brands fa-square-github"></i>
+            </a>
+            <a href="#"> <!-- Icone linkedin -->
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+          <span>  
+            use seu e-mail para cadastro
+          </span>
+          <input type="text" placeholder="Nome">
+          <input type="email" placeholder="E-mail">
+          <input type="password" placeholder="Senha">
+          <button>Inscrever-se</button>
+        </form>
+      </div> <!-- Fim do formulário - cadastro -->
+
+      <div class="form-cotainer faca-login"> <!-- Inicio do formulário - entrar -->
+        <form> 
+          <h1>Faça login</h1>
+          <div class="icons-media">
+            <a href="#"> <!-- Icone instagram -->
+              <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="#"> <!-- Icone facebook -->
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#"> <!-- Icone github -->
+              <i class="fa-brands fa-square-github"></i>
+            </a>
+            <a href="#"> <!-- Icone linkedin -->
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+          <span>
+            use seu e-mail e senha
+          </span>
+          <input type="email" placeholder="E-mail">
+          <input type="password" placeholder="Senha">
+          <a href="#">Esqueceu sua senha?</a>
+          <button>
+            Faça login
+          </button>
+        </form>
+      </div> <!-- Fim do formulário - entrar -->
+
+      <div class="toggle-container"> <!-- inicio da toggle-container-->
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Bem vindo de volta!</h1>
+            <p>
+              Insira seus dados pessoais para usar todos os recursos do site.
+            </p>
+            <button class="hidden" id="login">
+              Faça login
+            </button>
+          </div>
+        </div>
+
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Olá, amigo!</h1>
+            <p>
+              Registre-se com seus dados pessoais para usar todos os recursos do site.
+            </p>
+            <button class="hidden" id="registre-se">
+              Inscrever-se
+            </button>
+          </div>
+        </div>
+      </div> <!-- Fim da div toggle-container -->
+
+    </div> <!-- Fim do container principal -->
+
+
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
