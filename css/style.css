@@ -1,0 +1,24 @@
+/* 
+Importando font montserrat 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+style principal
+*/
+*{
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  background-color: #6495ED; /*CornflowerBlue*/
+  background: linear-gradient(
+    to right, 
+    #E0FFFF, 
+    #87CEFA
+  ); /*LightCian e LightSkyBlue*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
