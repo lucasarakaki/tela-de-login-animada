@@ -198,6 +198,7 @@ icons style
 }
 .icons-media a{
   border: 1px solid #ccc;
+  font-size: 30px;
   border-radius: 20%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
